@@ -1,5 +1,28 @@
 {
-    "collectionName": "Mandelbrot/Julia Set",
-    "description": "Mandelbrot/Julia Sets encompasses both simplicity and complexity: how could such a simple formula, involving only multiplication and addition, produce a shape of great organic beauty and infinite subtle variation?",
-    "baseUri": ""
+    "collectionName": "Ghosterz",
+    "description": "2600+ NFTs created on the go using proper layers and generators with a simple Ghost",
+    "baseUri": "ipfs://bafybeibpuhrgfwt42hriycjzxy3qebwcwpy5tbjxpkdtvclh5v6ib7qq4e",
+    "edition": 1,
+    "attributes": [
+        {
+            "trait_type": "background",
+            "value": ""
+        },
+        {
+            "trait_type": "body",
+            "value": ""
+        },
+        {
+            "trait_type": "eyes_1",
+            "value": ""
+        },
+        {
+            "trait_type": "eyes_2",
+            "value": ""
+        },
+        {
+            "trait_type": "mouth",
+            "value": ""
+        }
+    ]
 }

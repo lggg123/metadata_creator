@@ -63,7 +63,7 @@ function main() {
                     {
                         name: `${collectionName} #${sequence}`,
                         description: `${description}`,
-                        image: `${baseUri}/${fileName}${fileExtension}`
+                        image: `${baseUri}/${fileName}${fileExtension}.png`
                     },
                     hexString
                 );

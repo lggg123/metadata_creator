@@ -12,7 +12,7 @@ const clientURL = process.env.CLIENT_URL;
 const provider = new HDWalletProvider(mnemonic, clientURL);
 const web3 = new Web3(provider);
 // Total number of NFT's to be minted
-const totalNfts = 145;
+const totalNfts = 256;
 
 async function mintNFT() {
     try {

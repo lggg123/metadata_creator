@@ -16,6 +16,13 @@ https://opensea.io/collection/mandelbrot-julia-set-collection
 -   `NodeJS`  
     https://nodejs.org/en/download/
 
+### Simplified Usage Instructions
+
+-  Copy and Paste ArtCollectible.sol and remix_scripts/bulk_mint_nfts.js to your remix browser and connect
+   to the appropriate blockchain. Fix the scripts accordingly. Remember to upload the entire folder of NFTs to pinata and copy the CID to the ArtCollectible.sol to be able to appropriately do so.
+
+-  deploy ArtCollectible.sol using the deploy button then right click bulk_mint_nfts.js and click run to run the script.
+
 ### Usage:
 
 This project can be used to deploy smart contract in two ways:

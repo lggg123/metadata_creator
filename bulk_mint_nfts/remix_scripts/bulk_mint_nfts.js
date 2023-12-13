@@ -1,12 +1,12 @@
 // Right click on the script name and hit 'Run' to execute
 (async () => {
     try {
-        const totalNfts = 145;
+        const totalNfts = 2600;
 
         console.log('Running bulk_mint_nfts script...');
 
-        const contractName = 'ArtCollectible'; // Change this for other contract
-        const contract_address = 'YOUR_DEPLOYED_CONTRACT_ADDRESS';
+        const contractName = 'Ghosterz'; // Change this for other contract
+        const contract_address = '0x7cBC437B81FadB099d63F9888BF68c3E87cE4273';
 
         // Note that the script needs the ABI which is generated from the compilation artifact.
         // Make sure contract is compiled and artifacts are generated

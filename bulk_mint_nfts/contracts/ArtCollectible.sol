@@ -11,10 +11,10 @@ contract ArtCollectible is Ownable, ERC1155 {
 
     constructor()
         ERC1155(
-            'ipfs://QmUusoGauKGU6EsGDLbqPiZK8PEnHDRYHa4c9yvJxhTHcg/{id}.json'
+            'ipfs://bafybeifepouvjudkc6ccybnxxfmesif4aothbm4wkcxa5gi6snxe3yco44/{id}.json'
         )
     {
-        setName('Mandelbrot Julia Set Collection');
+        setName('Ghosterz');
     }
 
     function setURI(string memory _newuri) public onlyOwner {

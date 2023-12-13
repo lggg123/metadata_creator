@@ -71,6 +71,15 @@ module.exports = {
             skipDryRun: true,
             gas: 8500000,
             gasPrice: 40000000000 // 40 gwei
+        },
+        polygonMumbai: {
+            provider: () => new HDWalletProvider(mnemonic, clientURL),
+            network_id: 80001,
+            confirmations: 2,
+            timeoutBlocks: 200,
+            skipDryRun: true,
+            gas: 8500000,
+            gasPrice: 40000000000
         }
         // Another network with more advanced options...
         // advanced: {

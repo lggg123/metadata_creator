@@ -4,7 +4,7 @@
         console.log('Running estimate_gas_fees script...');
 
         const contractName = 'ArtCollectible'; // Change this for other contract
-        const contract_address = 'YOUR_DEPLOYED_CONTRACT_ADDRESS';
+        const contract_address = '0x7cBC437B81FadB099d63F9888BF68c3E87cE4273';
 
         // Note that the script needs the ABI which is generated from the compilation artifact.
         // Make sure contract is compiled and artifacts are generated
@@ -22,7 +22,7 @@
                 from: accounts[0]
             }
         );
-        const ids = getTokenIds(1, 100);
+        const ids = getTokenIds(1, 256);
         const amounts = getAmounts(100);
         console.log('Token ids => ', ids);
         console.log('Amounts => ', amounts);
